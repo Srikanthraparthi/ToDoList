@@ -1,0 +1,79 @@
+
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    background-color: #457B9D;
+}
+h1{
+    text-align:center;
+}
+.input-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Styling for the input field */
+.input-container input {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding */
+    font-size: 16px; /* Increase font size */
+    border: 2px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Remove default blue outline */
+    margin-bottom: 10px; /* Space below the input */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    transition: border-color 0.3s ease; /* Smooth transition on focus */
+  }
+  
+  /* Change border color when the input is focused */
+  .input-container input:focus {
+    border-color: #007BFF; /* Blue border on focus */
+  }
+  
+  /* Placeholder text styling */
+  .input-container input::placeholder {
+    color: #aaa; /* Light gray placeholder text */
+    font-style: italic; /* Italic style */
+  }
+  
+.input-container > input {
+    width: 30px;
+    height: 30px;
+    font-size: 1.25 rpm;
+}
+
+.input-container > button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font: 1.5rem;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.container{
+    margin-top: 15px;
+    display: flex;
+   flex-direction: column; 
+   align-items: center;
+   gap: 5px;
+}
+.todo{
+    width: 500px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color:  #F1FAEE ;
+    padding: 0PX 5PX;
+}
+.actions > button{
+ background-color: red;
+ color: white;
+ height: 30px;
+ width: 75px;
+ border-radius: 10px;
+font-size: 1.05rem;
+margin-left: 10px;
+}
